@@ -1,0 +1,36 @@
+{
+  "name": "eigenlayer-restaking-api",
+  "version": "1.0.0",
+  "description": "Backend service for EigenLayer restaking data aggregation and exposure",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "fetch-data": "node scripts/fetchData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eigenlayer",
+    "restaking",
+    "ethereum",
+    "defi",
+    "api"
+  ],
+  "author": "Zeru Developer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.1.5",
+    "graphql": "^16.11.0",
+    "graphql-request": "^6.1.0",
+    "helmet": "^7.2.0",
+    "mongoose": "^7.8.7",
+    "web3": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
